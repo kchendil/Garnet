@@ -17,7 +17,7 @@
 # limitations under the License.
 
 
-default['delimited']['driver_shim_zip_url'] = "http://164.99.86.253/publish/Builds/IDM/dorado_sp2_patch3/Drivers/dirxml_flatfile/20130625/dirxmlflatfilefp.zip"
+default['ganet']['garnet_build_loc'] = "http://164.99.87.87:8080/job/RRA/lastSuccessfulBuild/artifact/target/rra-1.0-SNAPSHOT.war"
 default['delimited']['driver_name'] = "Delimited_Text_Driver"
 default['delimited']['ulimit'] = "4096"
 default['delimited']['admin_name']="admin.servers.system"

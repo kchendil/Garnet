@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: jade
+# Cookbook Name:: garnet
 # Recipe:: default
 #
 # Copyright 2013, Chendil Kumar Manoharan
@@ -18,7 +18,7 @@
 #
 
 
-
+garnet_build_loc=node['garnet']['garnet_build_loc']
 
 execute "Download install Garnet" do
  user "root" 

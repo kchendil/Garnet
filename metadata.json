@@ -1,5 +1,5 @@
 {
-  "name": "jade",
+  "name": "garnet",
   "description": "Installs and Configures latest Apache Tomcat 6 or 7",
   "long_description": "Description\n===========\n\nInstalls and configures latest Apache Tomcat version 6 or 7 or specified version",
   "maintainer": "Chendil Kumar Manoharan",

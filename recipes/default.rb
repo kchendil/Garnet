@@ -18,11 +18,11 @@
 #
 
 
-garnet_build_loc=node['garnet']['garnet_build_loc']
+#garnet_build_loc=node['garnet']['garnet_build_loc']
 
 execute "Download install Garnet" do
  user "root" 
- command "wget #{garnet_build_loc} -O /opt/novell/idm/rbpm/jboss/server/IDMProv/deploy/rra.war" 
+ command "wget http://164.99.87.87:8080/job/RRA/lastSuccessfulBuild/artifact/target/rra-1.0-SNAPSHOT.war -O /opt/novell/idm/rbpm/jboss/server/IDMProv/deploy/rra.war" 
   action :run
 end
 

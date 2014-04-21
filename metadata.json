@@ -1,7 +1,7 @@
 {
   "name": "garnet",
-  "description": "Installs and Configures latest Apache Tomcat 6 or 7",
-  "long_description": "Description\n===========\n\nInstalls and configures latest Apache Tomcat version 6 or 7 or specified version",
+  "description": "Downloads Catalog Administrator(Garnet) War to the deploy folder",
+  "long_description": "Downloads Catalog Administrator(Garnet) War to the deploy folder",
   "maintainer": "Chendil Kumar Manoharan",
   "maintainer_email": "mkchendil@gmail.com",
   "license": "Apache 2.0",
@@ -27,7 +27,7 @@
   "groupings": {
   },
   "recipes": {
-    "tomcat::default": "Installs and Configures latest Apache Tomcat 6 or 7 or specified version"
+    "garnet::default": "Downloads Catalog Administrator(Garnet) War to the deploy folder"
   },
-  "version": "0.1.8"
+  "version": "0.1.10"
 }
